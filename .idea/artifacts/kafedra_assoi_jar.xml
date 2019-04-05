@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kafedra_assoi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kafedra_assoi_jar</output-path>
+    <root id="archive" name="kafedra_assoi.jar">
+      <element id="module-output" name="kafedra_assoi" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="uchstepen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="766.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Add">
+   <children>
+      <TextField fx:id="lastname" layoutX="95.0" layoutY="169.0" prefHeight="25.0" prefWidth="223.0" promptText="Фамилия" />
+      <TextField fx:id="firstname" layoutX="95.0" layoutY="249.0" prefHeight="25.0" prefWidth="223.0" promptText="Имя" />
+      <TextField fx:id="thirdname" layoutX="95.0" layoutY="328.0" prefHeight="25.0" prefWidth="223.0" promptText="Отчество" />
+      <TextField fx:id="year" layoutX="95.0" layoutY="411.0" prefHeight="25.0" prefWidth="223.0" promptText="Год рождения" />
+      <TextField fx:id="adres" layoutX="95.0" layoutY="490.0" prefHeight="25.0" prefWidth="223.0" promptText="Домашний адрес" />
+      <TextField fx:id="telephone" layoutX="95.0" layoutY="572.0" prefHeight="25.0" prefWidth="223.0" promptText="Телефон" />
+      <ChoiceBox fx:id="obrazovanie" layoutX="472.0" layoutY="170.0" prefHeight="25.0" prefWidth="223.0" />
+      <ChoiceBox fx:id="dolzhnost" layoutX="472.0" layoutY="250.0" prefHeight="25.0" prefWidth="223.0" />
+      <ChoiceBox fx:id="uchstepen1" layoutX="472.0" layoutY="329.0" prefHeight="25.0" prefWidth="223.0" />
+      <AnchorPane prefHeight="137.0" prefWidth="778.0" style="-fx-background-color: #CC0000;">
+         <children>
+            <Text fill="WHITE" layoutX="205.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кафедра АССОИ" wrappingWidth="370.13671875">
+               <font>
+                  <Font name="RodchenkoInlineCTT" size="54.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="146.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кафедра &quot;Автоматизированных систем сбора и обработки информации&quot;" wrappingWidth="487.13671875">
+               <font>
+                  <Font name="MinionPro-Bold" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="image2" fitHeight="87.0" fitWidth="102.0" layoutX="34.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/KNITehnolU.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image1" fitHeight="133.0" fitWidth="129.0" layoutX="654.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pictures/Без%20имени-1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="629.0" prefHeight="137.0" prefWidth="778.0" style="-fx-background-color: #CC0000;">
+         <children>
+            <Button fx:id="add_button" layoutX="72.0" layoutY="41.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="407.0" text="Добавить в базу данных">
+               <font>
+                  <Font name="MinionPro-Bold" size="24.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="image3" fitHeight="112.0" fitWidth="154.0" layoutX="569.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <ChoiceBox fx:id="uchzvanie" layoutX="472.0" layoutY="411.0" prefHeight="25.0" prefWidth="223.0" />
+      <TextField fx:id="path_image" layoutX="472.0" layoutY="490.0" prefHeight="25.0" prefWidth="223.0" promptText="Путь к фото" />
+      <Button fx:id="add_photo_button" layoutX="534.0" layoutY="533.0" mnemonicParsing="false" text="Загрузить фото" />
+      <Button fx:id="exit_button" layoutX="474.0" layoutY="584.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="223.0" text="Назад">
+         <font>
+            <Font name="MinionPro-Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

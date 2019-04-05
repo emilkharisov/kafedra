@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="795.0" prefWidth="1549.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_result_uch">
+   <children>
+      <AnchorPane prefHeight="137.0" prefWidth="1549.0" style="-fx-background-color: #CC0000;">
+         <children>
+            <Text fill="WHITE" layoutX="586.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кафедра АССОИ" wrappingWidth="370.13671875">
+               <font>
+                  <Font name="RodchenkoInlineCTT" size="54.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="527.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кафедра &quot;Автоматизированных систем сбора и обработки информации&quot;" wrappingWidth="487.13671875">
+               <font>
+                  <Font name="MinionPro-Bold" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="image2" fitHeight="87.0" fitWidth="102.0" layoutX="415.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../out/production/kafedra_assoi/sample/pictures/KNITehnolU.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image1" fitHeight="133.0" fitWidth="129.0" layoutX="1035.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../out/production/kafedra_assoi/sample/pictures/Без%20имени-1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="Result_uch" layoutX="80.0" layoutY="251.0" prefHeight="278.0" prefWidth="1394.0">
+         <columns>
+            <TableColumn fx:id="id_uch" prefWidth="75.0" text="Номер" />
+            <TableColumn fx:id="nazvanie_uch" prefWidth="242.00003051757812" text="Название" />
+            <TableColumn fx:id="avtory_uch" prefWidth="573.0" text="Авторы" />
+            <TableColumn fx:id="stranicy_uch" prefWidth="75.0" text="Страницы" />
+            <TableColumn fx:id="tip_uch" prefWidth="264.0" text="Тип" />
+            <TableColumn fx:id="god_uch" prefWidth="75.0" text="Год" />
+            <TableColumn fx:id="izdatel_uch" prefWidth="88.0" text="Издатель" />
+         </columns>
+      </TableView>
+      <Text layoutX="458.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отчёт по учебно - методической работе" wrappingWidth="637.13671875">
+         <font>
+            <Font name="MinionPro-It" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
